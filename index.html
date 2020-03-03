@@ -1,0 +1,288 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]--><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="en_US" property="og:locale">
+<meta content="Arijit Chatterjee | Design, Illustrations And Usability">
+<meta content="Arijit Chatterjee – Graphic / UI/ UX Designer. Yup, that’s me!  And I am indeed in a very happy phase of my life!
+I am based in Pune where I create hand-crafted websites, mobile apps, and kickass brands. I design anything and everything that can be designed. You name it, I’ll do it!
+I have designed for companies like TCS, Microsoft and quite a few startups. You can have a look at some of my work below." property="og:description">
+<meta content="Webdesign, User interface Design, User Experience, Mobile Applications, Design, Branding," property="og:description">
+<meta content="~/" property="og:url">
+<meta content="Arijit Chatterjee" property="og:site_name">
+<meta content="article" property="og:type">
+<meta content="~/images/Arijit_Logo.png" property="og:image">
+<link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+
+<title>Arijit Chatterjee | Design, Illustration and Usability</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400" rel="stylesheet">
+<link href="css/animations.css" rel="stylesheet" />
+<!--[if lte IE 9]>
+      <link href='/PATH/TO/FOLDER/css/animations-ie-fix.css' rel='stylesheet'>
+<![endif]-->
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script src="js/jquery-1.9.1.min.js"></script>
+
+ 
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> vendor js -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/plax.js"></script>
+<script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/imagesloaded.js"></script>
+<script src="js/pace.js"></script>
+<link href="css/pace.css" rel="stylesheet" />
+
+<script>
+
+		/* scrollUp Minimum setup 
+		$(function () {
+			$.scrollUp();
+		});
+
+		 scrollUp full options*/
+		$(function () {
+			$.scrollUp({
+				scrollName: 'scrollUp',
+				topDistance: '300', // Distance from top before showing element (px)
+				topSpeed: 300, // Speed back to top (ms)
+				animation: 'fade', // Fade, slide, none
+				animationInSpeed: 200, // Animation in speed (ms)
+				animationOutSpeed: 200, // Animation out speed (ms)
+				scrollText: 'Scroll to top', // Text for element
+				scrollImg: true,
+				activeOverlay: false // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+			});
+		});
+		
+
+</script>
+<script type="text/javascript">
+      $(document).ready(function () {
+        $('#shell img').plaxify()
+        $.plax.enable()
+      })
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+		var $grid = $('.grid').masonry({
+		  // options
+		  columnWidth: '.grid-item',
+		  itemSelector: '.grid-item--big, .grid-item',
+		  percentPosition: true
+		  
+		});
+		// layout Masonry after each image loads
+		$grid.imagesLoaded().progress( function() {
+		  $grid.masonry('layout');
+		});
+	   })
+    </script>
+
+
+</head>   
+<body>
+<div class="gridContainer clearfix">
+	
+	<div class="wrap">
+        
+            <header id="shell" >
+                <div class="wrapper animatedParent animateOnce" data-sequence="300">
+                    <div class="logo animated growIn" data-id="1">
+                        <img src="images/HeaderMob.png" alt="Arijit Chatterjee" />
+                    </div>
+                    <h1 class="title animated fadeInUpShort" data-id="2">
+                   Life is </br><span style="color: #eb2b8f;"> colorful. </span><!--आपले स्वागत आहे | यह जीवन <span style="color: #ef439d;"> रंगीन </span> है.  -->
+                    </h1>
+                	<img class=" animated fadeIn" data-id="1" src="images/HeaderBG5.png" width="400" height="342" data-xrange="10" data-yrange="10" id="glares" data-rjs="3"/>
+                   <img class=" animated fadeIn" data-id="1" src="images/HeaderBG6.png" width="400" height="342" data-xrange="2" data-yrange="2" id="circlebg" data-rjs="3"/>
+                    <div style="float: left;">
+                             <p class="bodydesc animated fadeInUpShort" data-id="3"></br>Hello, <a class="tooltip" href="/cdn-cgi/l/email-protection#b9c9d1d8cadccaccdddcdcc9f9ded4d8d0d597dad6d4">I'm Arijit<span class="tooltiptext"><b>Say hi!</b></span></a>, a product designer and a learning illustrator with 8+ years of experience. Currently working with <a class="normallink" href="#">Google</a> in Warsaw.</p>
+                    </div>
+                    <ul class=" animated fadeInUpShort" data-id="3">
+                            
+                            <li><a href="http://ahappyphase.tumblr.com">Tumblr</a> </li>
+                            <li><a href="https://instagram.com/ahappyphase/">Instagram</a> </li>
+							<li><a href="https://dribbble.com/ahappyphase">Dribbble</a> </li>
+                    </ul>
+					
+                    <div class="scroll animated fadeInUpShort" data-id="3">
+                        <img src="images/down1.png" data-rjs="2"/>
+                        
+                    </div>
+                    
+                </div>    
+            </header>
+            </div> 
+            <div class="intwrapper mbot100 ">
+            
+            	<ul class="grid cs-style-1" >
+				<li class="grid-item--big animatedParent animateOnce" data-sequence="300" data-appear-top-offset="-200">
+					<figure>
+						<img class="animated fadeInUpShort" data-id="1"  src="images/thumb/quickorder.jpg" alt="img01">
+						<a href="Quickorder.html" class="figcaption red">
+							<div class="itemwrap">
+                                <h4>_01</h4>
+                                <h3>Quick Order</h3>
+                                <span>Android, UI/UX, 2015</span>
+							</div>
+						
+                        </a>
+						
+					</figure>
+				</li>
+                <li class="grid-item animatedParent animateOnce" data-sequence="300" data-appear-top-offset="-200">
+					<figure>
+						<img class="animated fadeInUpShort" data-id="2"   src="images/thumb/NotSoGrey.jpg" alt="img02" data-rjs="2">
+						<a href="Notsogrey.html" class="figcaption green">
+                        	<div class="itemwrap">
+                                <h4>_02</h4>
+                                <h3>Not So Grey</h3>
+                                <span>Android, UI/UX, 2014</span>
+							</div>
+                        </a>
+					</figure>
+				</li>
+				<li class="grid-item animatedParent animateOnce" data-sequence="300" data-appear-top-offset="-200">
+					<figure>
+						<img class="animated fadeInUpShort" data-id="2"  src="images/thumb/donut.jpg" alt="img02" data-rjs="2">
+						<a href="Donut.html" class="figcaption blue">
+                        	<div class="itemwrap">
+                                <h4>_03</h4>
+                                <h3>Do-nut</h3>
+                                <span>Android, UI/UX, 2015</span>
+							</div>
+                        </a>
+					</figure>
+				</li>
+				<li class="grid-item animatedParent animateOnce" data-sequence="300" data-appear-top-offset="-200">
+					<figure>
+						<img class="animated fadeInUpShort" data-id="3"  src="images/thumb/MoviePosters.jpg" alt="img02" data-rjs="2">
+						<a href="Movies.html" class="figcaption orange">
+                        	<div class="itemwrap">
+                                <h4>_04</h4>
+                                <h3>Movie Posters</h3>
+                                <span>Android, UI/UX, 2014</span>
+							</div>
+                        </a>
+					</figure>
+				</li>
+                
+                
+                <li class="grid-item animatedParent animateOnce" data-sequence="300" data-appear-top-offset="-200">
+					<figure>
+						<img class="animated fadeInUpShort" data-id="3"  src="images/thumb/Office.jpg" alt="img02" data-rjs="2">
+						<a href="Office.html" class="figcaption orange2">
+                        	<div class="itemwrap">
+                                <h4>_05</h4>
+                                <h3>Office 365</h3>
+                                <span>Android, UI/UX, 2014</span>
+							</div>
+                        </a>
+					</figure>
+				</li>
+                
+                <li class="grid-item animatedParent animateOnce" data-sequence="300" data-appear-top-offset="-200">
+					<figure>
+						<img class="animated fadeInUpShort" data-id="4"  src="images/thumb/Music.jpg" alt="img02" data-rjs="2">
+						<a href="Music.html" class="figcaption purple">
+                        	<div class="itemwrap">
+                                <h4>_06</h4>
+                                <h3>Music Player</h3>
+                                <span>Win10, UI/UX, 2014</span>
+							</div>
+                        </a>
+					</figure>
+				</li>
+                <li class="grid-item animatedParent animateOnce" data-sequence="300" data-appear-top-offset="-200">
+					<figure>
+						<img class="animated fadeInUpShort" data-id="4"  src="images/thumb/KindlyCare.jpg" alt="img02" data-rjs="2">
+						<a href="Kindlycare.html" class="figcaption yellow">
+                        	<div class="itemwrap">
+                                <h4>_07</h4>
+                                <h3>Kindly Care</h3>
+                                <span>Android, UI/UX, 2014</span>
+							</div>
+                        </a>
+					</figure>
+				</li>
+                
+				
+			</ul>		
+                         
+    
+    </div>
+    <!--<div class="wrap">
+                <div class="sayhi">
+                
+                	
+                    <div class="divider">
+                    <div class="line">
+                        
+                    </div>
+                    </div>	
+                    <h2>चलो बात चीत करें,<span style="color: #ef439d;"></span>
+                    </h2>	
+                    <a class="bodydesc2" href="mailto:phaseArijit@gmail.com">
+                    	So will you take an ale or a lagger?
+                    </a>
+            
+            </div>
+    
+    </div>-->
+    
+    
+    <div class="wrap">
+    		
+    		<footer>
+            	<p class="copyright">© 2015 Arijit Chatterjee. Thank you.</p>
+                <ul>    
+                    <li><img src="images/Footerplus.png" data-rjs="2" /></li>
+                    
+                </ul>
+            	
+                <ul>    
+                    <li><a href="https://instagram.com/ahappyphase/">Instagram</a></li>
+                    <li><a href="https://facebook.com/Arijit.phase">Facebook</a></li>
+                </ul>
+                <ul>
+                	<li><a href="https://www.dribbble.com/ahappyphase">Dribbble</a></li>
+                    
+                    <li><a href="https://ahappyphase.tumblr.com">Tumblr</a></li>
+                    
+                </ul>
+                
+                
+            </footer>
+
+    
+    </div>
+
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/css3-animate-it.js"></script>
+<script src="js/toucheffects.js"></script>
+<script type="text/javascript" src="js/retina.min.js"></script>
+<script type="text/javascript">
+      $(document).ready(function () {
+        retinajs();
+      })
+</script>
+
+</body>
+</html>
