@@ -133,16 +133,12 @@ h1 {
 
 
 p.bodydesc {
-	
-
 	font-size: 1.2em;
 	font-weight: 300;
 	text-align: left;
 	line-height: 1.8em;
 	padding: 0;
 	width: 100%;
-	max-width: 400px;
-
 }
 
 
@@ -716,9 +712,6 @@ p.bodydesc {
 	
 
 	font-size: 1.2em;
-
-	width: 400px;
-	max-width: 400px;
 	margin-top: 0;
 
 
@@ -829,7 +822,6 @@ background: #202020 bottom center url(../images/HeaderBG.png) no-repeat;
 header {
 	margin: 0 auto;
     text-align: center;
-    height: 800px;
 	width: 500px;
 	position: relative;
 	top: 80px;
@@ -889,9 +881,6 @@ p.bodydesc {
 	font-size: 1.2em;
 	line-height: 1.8em;
 	padding: 0;
-
-	width: 280px;
-	margin-left: 200px;
 
 }
 
@@ -1002,10 +991,19 @@ footer {
 
 }
 
+.width80{
+	width: 80%;
+}
+
 @media only screen and (min-width: 1201px) {
 
 .gridContainer {
 	width: 100%;
+	text-align: center;
+}
+
+.gridContainer80 {
+	width: 80%;
 	text-align: center;
 }
 
